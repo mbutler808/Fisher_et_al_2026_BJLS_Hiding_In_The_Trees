@@ -61,10 +61,12 @@ This repo contains folders:
   - metadata files for broader subfamiliy are at the top level of Data.
 
 - Products: 
-  - Manucript
-    - manuscript files (in .qmd, .html, .docx and .pdf formats) and references (in .bib) 
+  - Manuscript
     - oreo-taxonomy.qmd: the main manuscript file
-    - Figures: All manusript figures
-    - Tables: includes tables to be embedded in the final manuscript in .csv format. 
+    - oreophryne.bib: the bibliography file
+    - rendered manuscript files (in .html, .docx and .pdf formats) 
+    - Figures: manuscript figures
+    - Tables: mansucript tables in .docx format. 
+    - etc: style files and docx formatting
   - Validation_Figures
     - figures to check output and steps in analysis

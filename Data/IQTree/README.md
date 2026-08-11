@@ -7,4 +7,3 @@ This directory contains all of the inputs and code needed to reconstruct the phy
   + `iqtreerun_bestmodel.sh` = shell script to generate phylogeny
   + output files for the best model determined by PartitionFinder
   + `bestmodel_` = subdirectories for alternate partition schemes
-
