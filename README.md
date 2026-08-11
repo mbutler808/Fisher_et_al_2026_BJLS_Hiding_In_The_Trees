@@ -5,7 +5,7 @@
 
 ## History
 
-2026-07-19 First release with data, code, results, and etc folders.  
+2026-08-10 First release with Data, Code, and Products folders.  
 
 ## Overview
 
