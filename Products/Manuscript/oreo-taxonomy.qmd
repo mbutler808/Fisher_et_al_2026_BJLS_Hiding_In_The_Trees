@@ -320,6 +320,6 @@ This study was made possible by a grant from the National Science Foundation awa
 
 # Data Availability Statement
 
-The data underlying this article are available in the GenBank Nucleotide Database [accession numbers PV703761-PV703777] at <https://www.ncbi.nlm.nih.gov/genbank/>. The codes and datafiles needed to reproduce these results can be found at [GitHub repository] with DOI [supplied upon publication]. 
+The data underlying this article are available in the GenBank Nucleotide Database [accession numbers PV703761-PV703777] at <https://www.ncbi.nlm.nih.gov/genbank/>. The codes and datafiles needed to reproduce these results can be found at <https://github.com/mbutler808/Fisher_et_al_2026_BJLS_Hiding_In_The_Trees> with DOI [supplied upon publication]. 
 
 # References
