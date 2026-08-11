@@ -6,7 +6,7 @@ To reconstruct the phylogeny using IQTREE, run the shell script from the command
 
 The following is an explanation of the command specified in the shell script `iqtreerun_bestmodel.sh` 
 
-Four inputs (in the ``../input/` folder): 
+Four inputs (in the `../input/` folder): 
 
 -  senkenbergiana_alignment.nex = sequence alignment  
 -  Partition file (choose one):
@@ -33,12 +33,12 @@ Use IQTREE2 and run the following command (IQTREE is run from the command line):
 
 Template:
 
-  iqtree2 -s <alignment> -p <partitions> -m MFP+MERGE -B 1000 --date <dates.txt> -o "outgroup" --date-tip 0
+  `iqtree2 -s <alignment> -p <partitions> -m MFP+MERGE -B 1000 --date <dates.txt> -o "outgroup" --date-tip 0`
 
 Run PartitionFinder plus tree with the filenames specified (specify path to input folder):
 
-  iqtree2 -s ../input/senkenbergiana_alignment.nex  -spp ../input/asterophryinae_15partitions.nex -pre senkenbergiana_merge -m MFP+MERGE -B 1000 -o "UMMZ219489_Scaphiophryne_marmorata" --date ../input/asterophryinae_dates.txt --date-tip 0 -mset JC,F81,K80,HKY,TN,TNe,TPM2,TPM2u,TPM3,TPM3u,TIM,TIMe,TIM2,TIM2e,TIM3,TIM3e,TVMe,TVM,SYM,GTR; 
+  `iqtree2 -s ../input/senkenbergiana_alignment.nex  -spp ../input/asterophryinae_15partitions.nex -pre senkenbergiana_merge -m MFP+MERGE -B 1000 -o "UMMZ219489_Scaphiophryne_marmorata" --date ../input/asterophryinae_dates.txt --date-tip 0 -mset JC,F81,K80,HKY,TN,TNe,TPM2,TPM2u,TPM3,TPM3u,TIM,TIMe,TIM2,TIM2e,TIM3,TIM3e,TVMe,TVM,SYM,GTR;` 
 
 To run PartitionFinder only: 
 
-  iqtree2 -s ../input/senkenbergiana_alignment.nex  -spp ../input/asterophryinae_15partitions.nex -m MF+MERGE -o "UMMZ219489_Scaphiophryne_marmorata" --date ../input/asterophryinae_dates.txt --date-tip 0 -mset JC,F81,K80,HKY,TN,TNe,TPM2,TPM2u,TPM3,TPM3u,TIM,TIMe,TIM2,TIM2e,TIM3,TIM3e,TVMe,TVM,SYM,GTR; 
+  `iqtree2 -s ../input/senkenbergiana_alignment.nex  -spp ../input/asterophryinae_15partitions.nex -m MF+MERGE -o "UMMZ219489_Scaphiophryne_marmorata" --date ../input/asterophryinae_dates.txt --date-tip 0 -mset JC,F81,K80,HKY,TN,TNe,TPM2,TPM2u,TPM3,TPM3u,TIM,TIMe,TIM2,TIM2e,TIM3,TIM3e,TVMe,TVM,SYM,GTR;` 
